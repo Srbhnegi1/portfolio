@@ -33,7 +33,7 @@ const Contact = () => {
         </div>
         <div className="textColumn">
           <h3>
-            <NavLink to="https://github.com/Srbhnegi1" target="_blank">
+            <NavLink to="https://github.com/Srbhnegi1">
               <strong>: https://github.com/Srbhnegi1</strong>
             </NavLink>
           </h3>

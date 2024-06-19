@@ -1,50 +1,41 @@
 .contactContainer {
-  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  margin: 0 auto;
+  gap: 10px;
 }
-
 .contactItem {
   display: flex;
-  margin: 10px;
+  align-items: center;
   width: 100%;
+  max-width: 600px;
+  padding: 10px;
 }
-.contactItem div svg {
+
+.iconColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
 }
+
 .textColumn {
-  padding: 0 20px;
+  margin-left: 4px;
 }
 
-.contactItem h3 strong {
-  color: #555;
-  letter-spacing: 3px;
+.textColumn h3 strong {
+  font-size: 1rem;
 }
 
-@media (max-width: 568px) {
-  .contactItem h3 strong {
-    letter-spacing: 1px;
-  }
-}
-
-@media (max-width: 400px) {
-  .contactContainer {
-    padding: 10px;
-  }
-
+@media (max-width: 768px) {
   .contactItem {
     flex-direction: column;
-  }
-
-  .iconColumn {
-    width: auto;
+    align-items: center;
+    text-align: center;
   }
 
   .textColumn {
-    padding-left: 0;
-    margin-top: 5px;
+    margin-left: 0;
+    text-align: center;
   }
 }
