@@ -66,8 +66,8 @@
   }
 
   .skills img {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     margin: 8px;
   }
 }
@@ -90,14 +90,14 @@
 
 @media only screen and (max-width: 768px) {
   .image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .image {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 }

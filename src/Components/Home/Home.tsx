@@ -1,4 +1,5 @@
 import "./Home.css";
+import image from "./image.png";
 import Footer from "../Footer/Footer";
 const Home = () => {
   return (
@@ -9,11 +10,7 @@ const Home = () => {
             Hello I'm <span>Saurabh Negi</span>
           </h2>
           <h3>FrontEnd Developer.</h3>
-          <img
-            src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg"
-            alt="myImage"
-            className="image"
-          />
+          <img id="image" src={image} alt="myImage" className="image" />
           <p>
             Passionate Front-end Developer on a mission to make the web <br />
             more beautiful, with a toolbox filled with HTML, CSS, JavaScript,
@@ -42,7 +39,7 @@ const Home = () => {
         />
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-          alt="react logo"
+          alt="reactlogo"
         />
         <img
           src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*5g3mp6zgIoqprOgV.png"

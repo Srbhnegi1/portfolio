@@ -4,14 +4,17 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <div className="footer">
-        <NavLink to="https://github.com/srbhnegi">
-          <FaGithub />
-        </NavLink>
-        <NavLink to="https://www.linkedin.com/in/saurabh-singh-negi-0207a1251/">
-          <FaLinkedin />
-        </NavLink>
-      </div>
+      <>
+        <h2>Get in touch</h2>
+        <div className="footer">
+          <NavLink to="https://www.linkedin.com/in/saurabh-singh-negi-0207a1251/">
+            <FaLinkedin />
+          </NavLink>
+          <NavLink to="https://github.com/Srbhnegi1">
+            <FaGithub />
+          </NavLink>
+        </div>
+      </>
     </div>
   );
 };

@@ -20,10 +20,16 @@ const Projects = () => {
             used Google’s YouTube v3 API.
           </p>
           <div className="links">
-            <NavLink to="GitHub Link" target="_blank">
+            <NavLink
+              to="https://github.com/Srbhnegi1/youtube-clone"
+              target="_blank"
+            >
               <h5>GitHub</h5>
             </NavLink>
-            <NavLink to="netlify Link" target="_blank">
+            <NavLink
+              to="https://stirring-marigold-90984d.netlify.app/"
+              target="_blank"
+            >
               <h5>Live Demo</h5>
             </NavLink>
           </div>
@@ -50,10 +56,16 @@ const Projects = () => {
             providing users with the latest information on price changes.
           </p>
           <div className="links">
-            <NavLink to="githubLink" target="_blank">
+            <NavLink
+              to="https://github.com/Srbhnegi1/crypto-tracker"
+              target="_blank"
+            >
               <h5>GitHub</h5>
             </NavLink>
-            <NavLink to="netlifyLink" target="_blank">
+            <NavLink
+              to="https://joyful-souffle-dc5c63.netlify.app/"
+              target="_blank"
+            >
               <h5>Live Demo</h5>
             </NavLink>
           </div>
@@ -80,16 +92,22 @@ const Projects = () => {
             different devices.
           </p>
           <div className="links">
-            <NavLink to="githubLink" target="_blank">
+            <NavLink
+              to="https://github.com/Srbhnegi1/ecommerce"
+              target="_blank"
+            >
               <h5>GitHub</h5>
             </NavLink>
-            <NavLink to="netlifyLink" target="_blank">
+            <NavLink
+              to="https://storied-lily-0920a3.netlify.app/"
+              target="_blank"
+            >
               <h5>Live Demo</h5>
             </NavLink>
           </div>
           <div className="tags">
             <button>React</button>
-            <button>TypeScript</button>
+            <button>React Router</button>
             <button>Axios</button>
           </div>
         </div>
