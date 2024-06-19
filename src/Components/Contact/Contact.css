@@ -26,7 +26,7 @@
 
 @media (max-width: 568px) {
   .contactItem h3 strong {
-    color: #555;
+    letter-spacing: 1px;
   }
 }
 

@@ -38,6 +38,7 @@ const Projects = () => {
             <button>TypeScript</button>
             <button>Youtube API</button>
           </div>
+          <hr />
         </div>
       </div>
 
@@ -74,12 +75,13 @@ const Projects = () => {
             <button>TypeScript</button>
             <button>Coingecko API</button>
           </div>
+          <hr />
         </div>
       </div>
       <div className="projectItem ecommerce">
         <img
           src="https://cdn.pixabay.com/photo/2017/08/06/17/58/people-2594683_1280.jpg"
-          alt="ne"
+          alt="ecommercePhoto"
         />
         <div className="projectSummery">
           <h2>E-Commerce </h2>

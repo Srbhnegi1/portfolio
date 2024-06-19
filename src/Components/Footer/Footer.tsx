@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div>
       <>
-        <h2>Get in touch</h2>
+        <h3>Get in touch</h3>
         <div className="footer">
-          <NavLink to="https://www.linkedin.com/in/saurabh-singh-negi-0207a1251/">
+          <NavLink to="https://www.linkedin.com/in/srbhnegi/">
             <FaLinkedin />
           </NavLink>
           <NavLink to="https://github.com/Srbhnegi1">
