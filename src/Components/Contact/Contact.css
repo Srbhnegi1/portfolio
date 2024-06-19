@@ -23,8 +23,9 @@
   margin-left: 4px;
 }
 
-.textColumn h3 strong {
-  font-size: 1rem;
+.textColumn p {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 768px) {
@@ -37,5 +38,9 @@
   .textColumn {
     margin-left: 0;
     text-align: center;
+  }
+  .textColumn p {
+    font-size: 1rem;
+    letter-spacing: 0.2px;
   }
 }

@@ -12,9 +12,9 @@ const Contact = () => {
           <HiMiniPhone />
         </div>
         <div className="textColumn">
-          <h3>
+          <p>
             <strong>: 7617469685</strong>
-          </h3>
+          </p>
         </div>
       </div>
       <div className="contactItem">
@@ -22,9 +22,9 @@ const Contact = () => {
           <TfiEmail />
         </div>
         <div className="textColumn">
-          <h3>
+          <p>
             <strong>: srbhnegi333@gmail.com</strong>
-          </h3>
+          </p>
         </div>
       </div>
       <div className="contactItem">
@@ -32,11 +32,11 @@ const Contact = () => {
           <FaGithub />
         </div>
         <div className="textColumn">
-          <h3>
+          <p>
             <NavLink to="https://github.com/Srbhnegi1">
               <strong>: https://github.com/Srbhnegi1</strong>
             </NavLink>
-          </h3>
+          </p>
         </div>
       </div>
       <div className="contactItem">
@@ -44,11 +44,11 @@ const Contact = () => {
           <TfiLinkedin />
         </div>
         <div className="textColumn">
-          <h3>
+          <p>
             <NavLink to="https://www.linkedin.com/in/srbhnegi/">
               <strong>: https://www.linkedin.com/in/srbhnegi/</strong>
             </NavLink>
-          </h3>
+          </p>
         </div>
       </div>
     </div>
