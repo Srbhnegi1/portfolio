@@ -1,0 +1,76 @@
+.educationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.educationContainer div {
+  text-align: center;
+}
+
+.educationContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: burlywood;
+}
+
+.educationContainer h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.educationContainer p {
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .educationContainer {
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .educationContainer div {
+    width: 90%;
+  }
+
+  .educationContainer h2 {
+    font-size: 1.5em;
+  }
+
+  .educationContainer h4 {
+    font-size: 1em;
+  }
+
+  .educationContainer p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .educationContainer {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .educationContainer div {
+    width: 100%;
+  }
+
+  .educationContainer h2 {
+    font-size: 1.2em;
+  }
+
+  .educationContainer h4 {
+    font-size: 0.9em;
+  }
+
+  .educationContainer p {
+    font-size: 0.8em;
+  }
+}

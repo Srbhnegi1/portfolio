@@ -1,0 +1,94 @@
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.projectItem {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.projectItem img {
+  width: 30%;
+  border-radius: 5px;
+}
+
+.projectSummery {
+  width: 50%;
+  padding: 20px;
+}
+
+.projectSummery h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  color: rgba(255, 166, 0, 0.399);
+}
+
+.projectSummery p {
+  color: #666;
+  letter-spacing: 2px;
+}
+.projectSummery p strong {
+  font-size: 1.2rem;
+}
+
+.projectSummery .tags {
+  margin-bottom: 10px;
+}
+
+.projectSummery .tags button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.projectSummery .tags button:hover {
+  background-color: #0056b3;
+}
+
+.projectSummery .links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.projectSummery .links h5 {
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+  margin: 1rem;
+  letter-spacing: 2px;
+}
+
+.projectSummery .links h5:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .projectItem {
+    flex-direction: column;
+  }
+
+  .projectItem img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .projectSummery {
+    width: 100%;
+  }
+}
