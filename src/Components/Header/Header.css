@@ -6,9 +6,12 @@
   padding: 10px 0;
   margin-bottom: 4rem;
 }
-.header div .logo {
+.header .logo {
   width: 4rem;
   border-radius: 40px;
+}
+.header .menu {
+  display: none;
 }
 .navLinks {
   display: flex;
@@ -20,15 +23,48 @@
 .navLinks div a p {
   padding: 0 1rem;
 }
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
   }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+  }
 
-  .header div {
-    margin-bottom: 10px;
+  .header .menu {
+    display: block;
+    cursor: pointer;
+    font-size: 4rem;
+    margin: 0 1rem;
+  }
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .navLinks.open {
+    display: flex;
+  }
+  .navLinks div {
+    width: 100%;
+    margin-bottom: 0.3rem;
+  }
+
+  .navLinks div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .navLinks div a p {
     font-size: 1.4rem;
+    margin: 0.8rem 0;
+    text-align: center;
+    width: 100%;
   }
 }

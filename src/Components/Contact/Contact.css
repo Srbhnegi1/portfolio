@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 768px) {
+  .contactContainer {
+    margin: 0 7rem;
+  }
   .contactItem {
     align-items: center;
     text-align: center;

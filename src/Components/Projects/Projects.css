@@ -77,7 +77,21 @@
   color: #0056b3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .projectItem {
+    flex-direction: column;
+  }
+
+  .projectItem img {
+    width: 100%;
+    height: auto;
+  }
+
+  .projectSummery {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
   .projectItem {
     flex-direction: column;
   }
