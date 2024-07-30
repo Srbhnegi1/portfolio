@@ -19,6 +19,11 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className="resume">
+        <a href="Saurabh.pdf" download>
+          Download Resume
+        </a>
+      </div>
       <div className="skills">
         <p>My Skills</p>
         <img
