@@ -125,31 +125,3 @@
     margin: 5px;
   }
 }
-
-@media (min-width: 600px) {
-  .resume a {
-    padding: 3rem;
-    font-size: 1.1em;
-  }
-}
-
-@media (min-width: 768px) {
-  .resume a {
-    padding: 3rem;
-    font-size: 1.2em;
-  }
-}
-
-@media (min-width: 992px) {
-  .resume a {
-    padding: 3rem;
-    font-size: 1.3em;
-  }
-}
-
-@media (min-width: 1200px) {
-  .resume a {
-    padding: 3rem;
-    font-size: 1.4em;
-  }
-}
